@@ -89,6 +89,15 @@
     .verdict{margin:0;font-size:15px;color:var(--ink);background:var(--cream);border-left:3px solid var(--gold2);padding:12px 14px}
     .empty{color:var(--body)}
 
+    .context figure{margin:28px 0 0;border:1px solid var(--line);border-top:3px solid var(--gold2);background:#fff;padding:18px}
+    .context figure a{display:block;overflow-x:auto}
+    .context figure img{width:100%;min-width:640px;height:auto}
+    .context figcaption{font-size:13px;color:var(--body);margin-top:12px}
+    .context .facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:26px}
+    .context .facts div{border-top:2px solid var(--gold2);padding-top:14px;min-width:0}
+    .context .facts b{display:block;font:800 17px/1.3 var(--display);letter-spacing:-.02em;color:var(--navy);margin-bottom:6px}
+    .context .facts p{font-size:15px;margin:0}
+    @media(max-width:980px){.context .facts{grid-template-columns:1fr}}
     .method{background:var(--navy);color:#fff}
     .method h2{color:#fff}
     .method p.intro{color:#c8d4e1;max-width:66ch}
@@ -173,6 +182,23 @@
       </div>
     </section>
 
+    <section class="block context" id="contexto-internacional">
+      <div class="container">
+        <span class="kicker">Contexto internacional · Energía</span>
+        <h2>México consume lo mismo, pero ahora depende más del gas</h2>
+        <p>Energía por persona en México, China y Estados Unidos, 1994–2024. Contexto nacional para leer los indicadores estatales. No es uno de los catorce indicadores y no compara a los cuatro estados.</p>
+        <figure>
+          <a href="../assets/datos/energia-por-persona.webp" target="_blank" rel="noopener" aria-label="Abrir la gráfica en tamaño completo (abre otra pestaña)"><img src="../assets/datos/energia-por-persona.webp" alt="Gráfica de energía primaria por persona de 1994 a 2024. Estados Unidos baja de 89.7 a 76.8 MWh. China sube de 8.3 a 34.5 MWh. México pasa de 16.4 a 17.7 MWh. China y México empatan en 2008 con 19.5 MWh y China queda arriba desde 2009. A la derecha, el consumo por fuente de cada país." width="2666" height="1500" loading="lazy"></a>
+          <figcaption>Energía primaria, método de sustitución, escala logarítmica. Fuente: Our World in Data con datos del Energy Institute y la EIA, consulta del 24-nov-2026.</figcaption>
+        </figure>
+        <div class="facts">
+          <div><b>El gas se duplicó</b><p>En México el gas por persona pasó de 3.4 a 7.7 MWh y el petróleo bajó de 11.4 a 7.6 MWh. Hoy pesan casi lo mismo. La solar y la eólica suman 0.85 MWh.</p></div>
+          <div><b>México: +8 % en 30 años</b><p>El total pasó de 16.4 a 17.7 MWh por persona. Su punto más alto fue 2008.</p></div>
+          <div><b>China, arriba desde 2009</b><p>China y México empataron en 2008 con 19.5 MWh por persona. En 2024 China consume casi el doble que México.</p></div>
+        </div>
+      </div>
+    </section>
+
     <section class="block method">
       <div class="container">
         <span class="kicker light">Metodología</span>
@@ -197,6 +223,7 @@
           <li><a href="https://sidof.segob.gob.mx/notas/docFuente/5776838" target="_blank" rel="noopener noreferrer">SENER, Programa Sectorial de Energía 2025-2030</a>.</li>
           <li><a href="https://agua.org.mx/wp-content/uploads/2026/05/PROGRAMA_Nacional_H_drico_2026-2030.pdf" target="_blank" rel="noopener noreferrer">CONAGUA, Programa Nacional Hídrico 2026-2030</a> (copia del DOF); tabla 4, tratamiento por entidad 2024.</li>
           <li><a href="https://sdg6data.org/country-or-area/Mexico" target="_blank" rel="noopener noreferrer">UN-Water, SDG 6 Data Portal: México</a>.</li>
+          <li><a href="https://github.com/owid/energy-data" target="_blank" rel="noopener noreferrer">Our World in Data, energy-data</a> (Energy Institute Statistical Review of World Energy y EIA): energía primaria por persona de México, China y Estados Unidos, 1994–2024 (consulta del 24-nov-2026; contexto internacional).</li>
           <li>Citibanamex, Índice de Estados Sostenibles 2023 (generación distribuida, capacidad limpia e intensidad eléctrica).</li>
           <li>SEP, Estadística e indicadores educativos por entidad federativa, ciclo 2024-2025: <a href="https://planeacion.sep.gob.mx/Doc/estadistica_e_indicadores/EstIndEntFed2024/01_AGS.pdf" target="_blank" rel="noopener noreferrer">01 Aguascalientes</a>, <a href="https://planeacion.sep.gob.mx/Doc/estadistica_e_indicadores/EstIndEntFed2024/11_GTO.pdf" target="_blank" rel="noopener noreferrer">11 Guanajuato</a>, <a href="https://planeacion.sep.gob.mx/Doc/estadistica_e_indicadores/EstIndEntFed2024/14_JAL.pdf" target="_blank" rel="noopener noreferrer">14 Jalisco</a>, <a href="https://planeacion.sep.gob.mx/Doc/estadistica_e_indicadores/EstIndEntFed2024/22_QRO.pdf" target="_blank" rel="noopener noreferrer">22 Querétaro</a> (talento).</li>
         </ul>
