@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bajio Ventures//Bajio Occidente 2030//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:bajio-occidente-2030-20261203@bajioventures.com
+DTSTAMP:20261124T044500Z
+DTSTART:20261203T140000Z
+DTEND:20261203T203000Z
+SUMMARY:BAJÍO-OCCIDENTE 2030 · Foro regional
+LOCATION:Falguera Concept House\, Paseo de la Presa 95\, Guanajuato\, Gto.\, México
+DESCRIPTION:Encuentro de bienvenida 08:00 h. Apertura 08:40 h. Foro presenc
+ ial por invitación. Confirmación mediante registro en https://luma.com/f
+ rr99igb. Dudas por WhatsApp: https://wa.me/524621643239.
+END:VEVENT
+END:VCALENDAR
