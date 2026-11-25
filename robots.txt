@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /README-INSTALACION.md
+Disallow: /CONTRIBUTING.md
+
+Sitemap: https://bajio-occidente.com/sitemap.xml
