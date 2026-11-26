@@ -133,7 +133,7 @@
         <h1>Agua, energía y talento en el Bajío-Occidente</h1>
         <p>Catorce indicadores estatales de Aguascalientes, Guanajuato, Jalisco y Querétaro, en orden de clave INEGI, con su referencia nacional, el seguimiento federal y los Objetivos de Desarrollo Sostenible. Agua, energía y talento ya tienen los cuatro estados. Un dato faltante no es cero.</p>
         <div class="badges">
-          <span class="badge gold">Versión 0.3 · 22 de noviembre de 2026</span>
+          <span class="badge gold">Versión 0.4 · 26 de noviembre de 2026</span>
           <span class="badge">Agua y energía: corte 22-nov-2026 · Talento: SEP, ciclo 2024-2025</span>
           <span class="badge">Elaboró: Bajío Ventures</span>
         </div>
@@ -145,7 +145,7 @@
         <div class="stat"><b>14</b><span>indicadores: 4 de agua, 5 de energía y 5 de talento</span></div>
         <div class="stat"><b>4 de 4</b><span>estados con datos en los 13 indicadores comparables</span></div>
         <div class="stat"><b>19</b><span>diferencias relevantes de un estado frente al nacional en agua y energía</span></div>
-        <div class="stat"><b>5</b><span>diferencias relevantes de un estado frente al nacional en talento</span></div>
+        <div class="stat"><b>8</b><span>diferencias relevantes de un estado frente al nacional en talento</span></div>
       </div>
     </section>
 
@@ -198,7 +198,7 @@
           <li><a href="https://agua.org.mx/wp-content/uploads/2026/05/PROGRAMA_Nacional_H_drico_2026-2030.pdf" target="_blank" rel="noopener noreferrer">CONAGUA, Programa Nacional Hídrico 2026-2030</a> (copia del DOF); tabla 4, tratamiento por entidad 2024.</li>
           <li><a href="https://sdg6data.org/country-or-area/Mexico" target="_blank" rel="noopener noreferrer">UN-Water, SDG 6 Data Portal: México</a>.</li>
           <li>Citibanamex, Índice de Estados Sostenibles 2023 (generación distribuida, capacidad limpia e intensidad eléctrica).</li>
-          <li>SEP, Estadística e indicadores educativos por entidad federativa, ciclo 2024-2025: <a href="https://planeacion.sep.gob.mx/Doc/estadistica_e_indicadores/EstIndEntFed2024/01_AGS.pdf" target="_blank" rel="noopener noreferrer">01 Aguascalientes</a>, <a href="https://planeacion.sep.gob.mx/Doc/estadistica_e_indicadores/EstIndEntFed2024/11_GTO.pdf" target="_blank" rel="noopener noreferrer">11 Guanajuato</a>, <a href="https://planeacion.sep.gob.mx/Doc/estadistica_e_indicadores/EstIndEntFed2024/14_JAL.pdf" target="_blank" rel="noopener noreferrer">14 Jalisco</a>, <a href="https://planeacion.sep.gob.mx/Doc/estadistica_e_indicadores/EstIndEntFed2024/22_QRO.pdf" target="_blank" rel="noopener noreferrer">22 Querétaro</a> (talento).</li>
+          <li>SEP, Estadística e indicadores educativos por entidad federativa, ciclo 2024-2025: <a href="https://planeacion.sep.gob.mx/Doc/estadistica_e_indicadores/EstIndEntFed2024/01_AGS.pdf" target="_blank" rel="noopener noreferrer">01 Aguascalientes</a>, <a href="https://planeacion.sep.gob.mx/Doc/estadistica_e_indicadores/EstIndEntFed2024/11_GTO.pdf" target="_blank" rel="noopener noreferrer">11 Guanajuato</a>, <a href="https://planeacion.sep.gob.mx/Doc/estadistica_e_indicadores/EstIndEntFed2024/14_JAL.pdf" target="_blank" rel="noopener noreferrer">14 Jalisco</a>, <a href="https://planeacion.sep.gob.mx/Doc/estadistica_e_indicadores/EstIndEntFed2024/22_QRO.pdf" target="_blank" rel="noopener noreferrer">22 Querétaro</a> y <a href="https://planeacion.sep.gob.mx/Doc/estadistica_e_indicadores/EstIndEntFed2024/33_NAL.pdf" target="_blank" rel="noopener noreferrer">nacional</a> (talento).</li>
         </ul>
         <p class="note">Las diferencias son aritméticas, sin atribución causal. Estos indicadores estatales no acreditan agua disponible por predio, generación efectiva, suministro eléctrico firme ni viabilidad de una nueva interconexión. Documento de trabajo de Bajío Ventures; las cifras oficiales son las de cada institución citada.</p>
       </div>
@@ -273,9 +273,9 @@ const IND=[
   eq:"Sí. Misma fuente para los cuatro estados.",fed:"Programa Sectorial de Educación 2025-2030",ods:"4.1: conclusión de la educación secundaria superior",
   pills:[["A · misma definición","ok"],["Nota metodológica: Jalisco","bad"]],verdict:"Guanajuato queda 7.4 puntos bajo el nacional. El 96.3 % de Jalisco no se interpreta: la misma fuente reporta abandono negativo en su educación superior.",dom:[50,100]},
  {id:"T5",b:"talento",n:"Peso de la formación técnica en media superior",u:"%",what:"Alumnos de bachillerato tecnológico y profesional técnico respecto del total de media superior. Cálculo propio con la matrícula de SEP.",
-  v:{AGS:55.5,GTO:43.1,JAL:23.7,QRO:31.1},y:"2024-2025",src:"Cálculo propio con matrícula SEP",nac:null,nacTxt:"referencia nacional por calcular",alerta:false,
+  v:{AGS:55.5,GTO:43.1,JAL:23.7,QRO:31.1},y:"2024-2025",src:"Cálculo propio con matrícula SEP",nac:34.8,ny:"2024-2025",nacSrc:"Cálculo propio con matrícula SEP nacional",alerta:false,
   eq:"Sí. Misma fuente para los cuatro estados.",fed:"Sin indicador federal equivalente",ods:"4.4: competencias técnicas para el empleo",
-  pills:[["A entre estados","ok"],["Estimado","warn"]],verdict:"Aguascalientes forma a más de la mitad de su bachillerato en opciones técnicas; Jalisco, a menos de una cuarta parte. Es la base de técnicos para operar y mantener la red y la industria.",dom:[0,60]}
+  pills:[["A · misma definición","ok"],["Diferencia relevante","warn"],["Estimado","warn"]],verdict:"Aguascalientes (+20.7 puntos) y Guanajuato (+8.3) superan al nacional (34.8 %); Jalisco queda 11.1 puntos abajo. Querétaro (−3.7) no alcanza el umbral de 5. Es la base de técnicos para operar y mantener la red y la industria.",dom:[0,60]}
 ];
 const fmt=(v,u)=>v==null?"—":v.toLocaleString("es-MX",{maximumFractionDigits:2})+(u==="%"?" %":"");
 const FS="DM Sans, Arial, sans-serif",FD="Montserrat, Arial, sans-serif";
